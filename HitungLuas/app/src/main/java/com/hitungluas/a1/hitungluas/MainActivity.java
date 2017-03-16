@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity {
         edit_panjang = (EditText) findViewById(R.id.edt_panjang);
         edit_lebar = (EditText) findViewById(R.id.edt_lebar);
         btn_hitung = (Button) findViewById(R.id.btn_hitung);
-        txt_hasil = (TextView) findViewById(R.id.txt_hasil);
-
-
+        txt_hasil = (TextView) findViewById(R.id.txt_hasil);//tes bedes
         btn_hitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
